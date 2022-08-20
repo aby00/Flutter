@@ -100,11 +100,11 @@ class _PlayerState extends State<Player> {
 
               SliderTheme(
                   data: SliderTheme.of(context).copyWith(
-                    valueIndicatorColor: Color.fromARGB(255, 79, 206, 206), // This is what you are asking for
-                    inactiveTrackColor: Color.fromARGB(255, 36, 36, 37), // Custom Gray Color
+                    valueIndicatorColor: Color.fromARGB(255, 79, 206, 206),
+                    inactiveTrackColor: Color.fromARGB(255, 36, 36, 37),
                     activeTrackColor: Color.fromARGB(255, 34, 34, 34),
                     thumbColor: Color.fromARGB(255, 79, 206, 206),
-                    overlayColor: Color.fromARGB(41, 36, 36, 40),  // Custom Thumb overlay Color
+                    overlayColor: Color.fromARGB(41, 36, 36, 40),  
                     thumbShape:
                         RoundSliderThumbShape(enabledThumbRadius: 12.0),
                     overlayShape:
